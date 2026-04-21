@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minicurso ERBD 2026 - Transparência em Dados</title>
+    <meta name="description" content="Site de divulgação de materiais do minicurso da Escola Regional de Banco de Dados (ERBD) 2026.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <span class="logo-text">ERBD 2026</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Minicurso: Transparência e Ciência de Dados</h1>
+                <p>Materiais e recursos para o minicurso de Transparência em dados pessoais em Bancos de Dados</p>
+                <div class="instructor-info" style="margin-top: 2rem; opacity: 0.9; font-size: 1rem; line-height: 1.4;">
+                    <p><strong>Prof. Dr. Thiago Adriano Coleti</strong></p>
+                    <p>Centro de Ciências Tecnológicas - Universidade Estadual do Norte do Paraná (UENP)</p>
+                    <p>Programa de Pós-Graduação em Sistemas de Informação - Escola de Artes, Ciências e Humanidades da USP</p>
+                </div>
+        </section>
+
+        <section id="materiais" class="container">
+            <h2>Materiais Didáticos</h2>
+            <div class="materials-grid">
+                <!-- Material 1 -->
+                <div class="material-card">
+                    <i class="fas fa-file-pdf"></i>
+                    <h3>Apresentação do Minicurso</h3>
+                    <p>Slides completos utilizados nas sessões teóricas e práticas.</p>
+                    <a href="Minicurso-Transparencia-ERBD-2026.pdf" class="btn-download" download>
+                        <i class="fas fa-download"></i> Baixar PDF
+                    </a>
+                </div>
+
+                <!-- Material 2 -->
+                <div class="material-card">
+                    <i class="fas fa-file-code"></i>
+                    <h3>Script de Carga</h3>
+                    <p>Scripts SQL para preparação do ambiente e carga de dados iniciais.</p>
+                    <a href="script_carga_dados.txt" class="btn-download" download>
+                        <i class="fas fa-download"></i> Baixar TXT
+                    </a>
+                </div>
+
+                <!-- Material 3 -->
+                <div class="material-card">
+                    <i class="fas fa-image"></i>
+                    <h3>Guia de Exercícios</h3>
+                    <p>Roteiro visual para as atividades práticas propostas.</p>
+                    <a href="Exercicio_minicurso_erbd.png" class="btn-download" download>
+                        <i class="fas fa-download"></i> Baixar PNG
+                    </a>
+                </div>
+
+                <!-- Material 4 -->
+                <div class="material-card">
+                    <i class="fas fa-scroll"></i>
+                    <h3>Artigo Relacionado</h3>
+                    <p>Referência acadêmica (IEEE Access) sobre transparência em dados.</p>
+                    <a href="2020_Paper_IEEE_Access.pdf" class="btn-download" download>
+                        <i class="fas fa-download"></i> Baixar PDF
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ERBD - Escola Regional de Banco de Dados. Organização: UTFPR Campus Dois Vizinhos.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

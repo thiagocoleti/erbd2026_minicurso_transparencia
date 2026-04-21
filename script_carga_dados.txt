@@ -1,0 +1,35 @@
+-- USUÁRIOS
+INSERT INTO usuarios VALUES
+(1, 'Ana Souza', 'ana@email.com', '18999990001', '1995-03-10', NOW()),
+(2, 'Carlos Lima', 'carlos@email.com', '18999990002', '1988-07-22', NOW()),
+(3, 'Juliana Alves', 'juliana@email.com', '18999990003', '2000-01-15', NOW());
+
+-- PERFIL
+INSERT INTO perfil VALUES
+(1, 1, 'Feminino', 'Engenheira', 'Superior', 'Branca', 'Católica'),
+(2, 2, 'Masculino', 'Professor', 'Mestrado', 'Parda', 'Nenhuma'),
+(3, 3, 'Feminino', 'Estudante', 'Ensino Médio', 'Preta', 'Evangélica');
+
+-- CURSOS
+INSERT INTO cursos VALUES
+(1, 'Introdução à Programação', 'Tecnologia', 'Iniciante'),
+(2, 'Banco de Dados', 'Tecnologia', 'Intermediário'),
+(3, 'UX Design', 'Design', 'Iniciante');
+
+-- MATRÍCULAS
+INSERT INTO matriculas VALUES
+(1, 1, 1, NOW(), 'Ativa'),
+(2, 2, 2, NOW(), 'Ativa'),
+(3, 3, 3, NOW(), 'Concluída');
+
+-- PROGRESSO
+INSERT INTO progresso VALUES
+(1, 1, 45.5, NOW()),
+(2, 2, 80.0, NOW()),
+(3, 3, 100.0, NOW());
+
+-- PAGAMENTOS
+INSERT INTO pagamentos VALUES
+(1, 1, 199.90, 'Cartão', NOW()),
+(2, 2, 299.90, 'Boleto', NOW()),
+(3, 3, 0.00, 'Gratuito', NOW());
